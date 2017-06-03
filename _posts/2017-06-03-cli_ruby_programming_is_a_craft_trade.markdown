@@ -42,7 +42,7 @@ solution: session with Avi and googled for examples to arrive at an iterator
 here I am 30 days after first reading the CLI requirement in early May, CLI is completed. Longer than planned, but I am still learning so my family and I have endured and succeeded.
 
 here is the github link
-[Fishing Resorts Along the Gulf Coast](http://https://github.com/ICanDoAllThingThroughChrist/fishingpole)
+[Fishing Resort](https://github.com/ICanDoAllThingThroughChrist/fishingpole)
 
 
 
