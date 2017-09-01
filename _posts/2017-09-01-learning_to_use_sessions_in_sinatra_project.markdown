@@ -14,29 +14,28 @@ After completing the labs, I thought I know it; however, when one of the spec in
 
 It is confusing to determine the truthy or falsey outcome of a method without some 1 on 1 tutorial for the ||= operator.  
 In the case of Current User and Loggedin? instance methods, we have the following code, which i could not understand.
-```
-def logged_in?
-    !!current_user
- end
-def current_user
-   if session[:user_id]
-   @current user ||= User.find_by(:id session(:user_id)
-   end 
-end
-```
+
+> def logged_in?
+>     !!current_user
+> end
+>def current_user
+>   if session[:user_id]
+>   @current user ||= User.find_by(:id session(:user_id)
+>   end 
+>end
 
 
 Until, Learn raised the IRB session and showed me the following
-[12:42:39] (master) swpp $ irb
-2.4.0 :001 > nil
- => nil 
-2.4.0 :002 > !!nil
- => false 
-2.4.0 :003 > [1, 2, 3]
- => [1, 2, 3] 
-2.4.0 :004 > !![1, 2, 3]
- => true 
-2.4.0 :005 >
+>[12:42:39] (master) swpp $ irb
+>2.4.0 :001 > nil
+> => nil 
+>2.4.0 :002 > !!nil
+> => false 
+>2.4.0 :003 > [1, 2, 3]
+> => [1, 2, 3] 
+>2.4.0 :004 > !![1, 2, 3]
+> => true 
+>2.4.0 :005 >
 
 Which I then rewrote the current method to Read:   
 1)!!Current Operator READS "IF Current User is NIL, THEN logged in? => "FALSE" 
