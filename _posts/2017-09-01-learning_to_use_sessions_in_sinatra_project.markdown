@@ -15,6 +15,7 @@ After completing the labs, I thought I know it; however, when one of the spec in
 It is confusing to determine the truthy or falsey outcome of a method without some 1 on 1 tutorial for the ||= operator.  
 In the case of Current User and Loggedin? instance methods, we have the following code, which i could not understand.
 
+```
 > def logged_in?
 >     !!current_user
 > end
@@ -23,6 +24,7 @@ In the case of Current User and Loggedin? instance methods, we have the followin
 >   @current user ||= User.find_by(:id session(:user_id)
 >   end 
 >end
+```
 
 
 Until, Learn raised the IRB session and showed me the following
