@@ -53,6 +53,7 @@ First scenario occurred during the signup method while the second scenario durin
 Ever feel like being in GMAT English test when you read the requirement like Include user input validations?  I find myself asking what method is used to perform this requirement, after I read the requirement. So I query the curriculum, and read the following
 "Next, we need to check two conditions: first, did we find a user with that username? This can be written as user != nil or simply user...We also need to check if that user's password matches up with the value in password_digest. We can use a method called authenticate" from Securing Passwords in Sinatra. I then realized the code had already been incorporated into the project.
 
+
 ##**Project Development Workflow:**
 
 With little skeleton to start the project, Flatiron provided me with corneal gem to start the project, after I had spent 2 days, part time on trying.  Thereafter, I began the development.  
