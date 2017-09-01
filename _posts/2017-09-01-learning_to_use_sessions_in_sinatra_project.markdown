@@ -5,7 +5,7 @@ date:   2017-09-01 16:10:21 -0400
 ---
 
 
-Sessions and Authentication Coding Process
+#**Sessions and Authentication Coding Process**
 The learning process of using sessions, and authentication is quite involved. Finally, I would like to elaborate on the project Developement Workflow. 
 
 After completing the labs, I thought I know it; however, when one of the spec in the Sinatra Project presented validation, I find myself re-reviewing the User Authentication Lab. Moreover, I find myself, inquiring about the helper methods of current user and login yesterday. For instance, in the Authentication Video, Avi had used session(:email) while in the helper method session(:user_id) was used instead.  
