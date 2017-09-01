@@ -26,16 +26,17 @@ In the case of Current User and Loggedin? instance methods, we have the followin
 
 
 Until, Learn raised the IRB session and showed me the following
->[12:42:39] (master) swpp $ irb
->2.4.0 :001 > nil
-> => nil 
->2.4.0 :002 > !!nil
-> => false 
->2.4.0 :003 > [1, 2, 3]
-> => [1, 2, 3] 
->2.4.0 :004 > !![1, 2, 3]
-> => true 
->2.4.0 :005 >
+
+> >[12:42:39] (master) swpp $ irb
+> >2.4.0 :001 > nil
+> > => nil 
+> >2.4.0 :002 > !!nil
+> > => false 
+> >2.4.0 :003 > [1, 2, 3]
+> > => [1, 2, 3] 
+> >2.4.0 :004 > !![1, 2, 3]
+> > => true 
+> >2.4.0 :005 >
 
 Which I then rewrote the current method to Read:   
 1)!!Current Operator READS "IF Current User is NIL, THEN logged in? => "FALSE" 
