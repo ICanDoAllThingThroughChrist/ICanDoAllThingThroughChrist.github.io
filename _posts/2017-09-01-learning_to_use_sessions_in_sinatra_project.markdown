@@ -16,14 +16,14 @@ It is confusing to determine the truthy or falsey outcome of a method without so
 In the case of Current User and Loggedin? instance methods, we have the following code, which i could not understand.
 
 ```
-> def logged_in?
->     !!current_user
-> end
->def current_user
->   if session[:user_id]
->   @current user ||= User.find_by(:id session(:user_id)
->   end 
->end
+def logged_in?
+    !!current_user
+ end
+def current_user
+   if session[:user_id]
+   @current user ||= User.find_by(:id session(:user_id)
+   end 
+end
 ```
 
 
