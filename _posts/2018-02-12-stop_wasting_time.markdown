@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      " "stop wasting time""
-date:       2018-02-13 03:20:29 +0000
+date:       2018-02-12 22:20:30 -0500
 permalink:  stop_wasting_time
 ---
 
